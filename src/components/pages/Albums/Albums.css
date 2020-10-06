@@ -1,0 +1,66 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+}
+.album-wrapper {
+  background-color: #f1f3f6;
+  padding: 8px;
+}
+.album-item {
+  margin-top: 2rem;
+}
+.album-header {
+  border-bottom: 1px solid #cecece;
+  margin-bottom: 1.6rem;
+  padding: 1.6rem;
+}
+.album-header__title {
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: #424242;
+}
+.album-header__details {
+  padding-top: 0.8rem;
+  color: #ab9b9b;
+}
+.album-photo__title {
+  color: #545454;
+  padding-bottom: 1rem;
+  min-height: 50px;
+}
+.album-photo__id {
+  font-size: 16px;
+  color: gray;
+}
+.album-body__slider {
+  display: flex;
+  align-items: center;
+}
+.BrainhubCarouselItem {
+  align-items: flex-start;
+}
+.album-photo__image {
+  height: 150px;
+  width: 120px;
+}
+.album-body__slider-item {
+  min-width: 120px;
+  padding: 0 0.5rem;
+}
+.album-loading {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  height: 100%;
+  width: 100%;
+}
+.album-loading__text {
+  position: relative;
+  top: 50%;
+  left: 33%;
+}
